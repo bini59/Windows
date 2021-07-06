@@ -237,7 +237,7 @@ body {
     border-radius: 180%;
     box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.17);
     margin-bottom: 20px;
-    background-image: url("/asset/img/profile.png");
+    background-image: url("../img/profile.png");
     background-size: cover;
 }
 .index-login .profile .index-title-icons img {
@@ -271,15 +271,21 @@ body {
     position: absolute;
     right: 2rem;
     bottom: 1rem;
+    width: 6rem;
+    display: flex;
 }
-.index-login .index-side-menu img {
+.index-login .index-side-menu div {
     width: 2rem;
     height: 2rem;
+    background-size: cover;
+    display: flex;
 }
-.index-login .index-side-menu img:nth-child(1) {
+.index-login .index-side-menu .side-wifi{
+    background-image: url("../img/wifi.png");
     margin-right: 1rem;
 }
-.index-login .index-side-menu img:nth-child(2) {
+.index-login .index-side-menu .side-logout{
+    background-image: url("../img/onoff.png");
     cursor: pointer;
 }
 .container {

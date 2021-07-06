@@ -53,10 +53,10 @@ const Main = ()=>{
 
                 </div>
             </div>
-            <Login></Login>
+            <Login />
             <div className="index-side-menu">
-                <img src="/asset/img/wifi.png" />
-                <img className="logout" src="/asset/img/onoff.png" onClick={event=>$(".index-title")[0].style = "transform: translateY(0vh);"} />
+                <div className="side-wifi" />
+                <div className="side-logout" onClick={event=>$(".index-title")[0].style = "transform: translateY(0vh);"} />
             </div>
         </div>
         </>
