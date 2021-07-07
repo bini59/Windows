@@ -307,10 +307,21 @@ body {
     width: 4rem;
     height: 6.4rem;
 }
-.container .icons .icon img {
+.container .icons .icon div {
     width: 2.5rem;
     height: 2.5rem;
+    background-size: cover;
 }
+.container .icons .icon .icon-category{
+    background-image: url("../img/icons/category.png");
+}
+.container .icons .icon .icon-search{
+    background-image: url("../img//icons/search.png");
+}
+.container .icons .icon .icon-github{
+    background-image: url("../img/icons/github.png");
+}
+
 .container .icons .icon span {
     font-size: 1.1rem;
     font-weight: 500;
