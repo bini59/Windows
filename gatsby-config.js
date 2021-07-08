@@ -4,6 +4,9 @@ module.exports = {
     description: `Like Windows, Like Desktop`,
     author: `@bini59`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    social: {
+      github: "bini59"
+    }
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -11,8 +14,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        name: `markdown-pages`,
+        path: `${__dirname}/src/asset/posts`,
       },
     },
     `gatsby-transformer-sharp`,
@@ -30,11 +33,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-gatsby-cloud`,
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-transformer-remark`,
   ],
-  category: [
-    
-  ]
 }
