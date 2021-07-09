@@ -34,5 +34,6 @@ module.exports = {
     },
     `gatsby-plugin-gatsby-cloud`,
     `gatsby-transformer-remark`,
+    `gatsby-plugin-sass`,
   ],
 }
