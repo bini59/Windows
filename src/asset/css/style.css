@@ -66,7 +66,7 @@ body {
     width: 2rem;
     height: 2rem;
     border-radius: 180%;
-    background-image: url("/asset/img/profile.png");
+    background-image: url("../img/profile.png");
     background-size: cover;
 }
 .workspace .workspace-menu:hover {
@@ -86,7 +86,7 @@ body {
 .workspace .workspace-time:hover {
     background-color: #949494;
 }
-.popup-menu {
+/* .popup-menu {
     display: flex;
     position: absolute;
     left: 0;
@@ -102,8 +102,8 @@ body {
     -ms-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-}
-.popup-menu .side-bar {
+} */
+/* .popup-menu .side-bar {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -111,23 +111,23 @@ body {
     padding: 0;
     width: 3.5rem;
     height: 100%;
-}
-.popup-menu .side-bar div {
+} */
+/* .popup-menu .side-bar div {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 3.5rem;
     cursor: pointer;
-}
-.popup-menu .side-bar div img {
+} */
+/* .popup-menu .side-bar div img {
     width: 2rem;
     height: 2rem;
     border-radius: 180%;
-}
-.popup-menu .side-bar div:hover {
+} */
+/* .popup-menu .side-bar div:hover {
     background-color: #b3b3b3;
-}
+} */
 .popup-menu .categories {
     margin: 0;
     padding: 10px;
@@ -298,7 +298,7 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
 }
-.container .icons .icon {
+/* .container .icons .icon {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -306,7 +306,7 @@ body {
     cursor: pointer;
     width: 4rem;
     height: 6.4rem;
-}
+} */
 .container .icons .icon div {
     width: 2.5rem;
     height: 2.5rem;
@@ -326,7 +326,7 @@ body {
     font-size: 1.1rem;
     font-weight: 500;
 }
-.windows {
+/* .windows {
     position: absolute;
     left: 6rem;
     top: 4.2rem;
@@ -339,7 +339,7 @@ body {
     resize: both;
     overflow: hidden;
     background-color: #fff;
-}
+} */
 .windows .windows-head {
     display: flex;
     justify-content: space-between;
