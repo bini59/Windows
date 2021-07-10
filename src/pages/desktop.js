@@ -12,11 +12,13 @@ const dragover = (event)=>{
 }
 
 const Desktop = ()=>{
+
+    const [togglePopup, toggleFunc] = React.useState(false);
     
     return (
-        <div className="desktop-container"  onDrop={event =>{console.log(event)}} onDragOver={event=>dragover(event)}>
+        <div className="desktop-container" onClick={e=>toggleFunc(!togglePopup)} onDrop={event =>{console.log(event)}} onDragOver={event=>dragover(event)}>
             <Icons />
-            <Workspace />
+            <Workspace togglepopup={{togglePopup: togglePopup, toggleFunc: toggleFunc}}/>
             <BiniWindows />
 
             {/* <div className="signout-screen">

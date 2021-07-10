@@ -12,7 +12,6 @@ const PopupMenu = ({style})=>{
             Jekyll
         </li>
     ]
-    console.log(style)
 
     return (
         <div className="popup-menu" style={style}>

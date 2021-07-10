@@ -5,10 +5,10 @@ import PopupMenu from "./popupMenu";
 
 import "../../asset/scss/desktop/workspace.scss"
 
-const Workspace = ()=>{
+const Workspace = ({togglepopup})=>{
 
     const time = useTime()
-    const [togglePopup, toggleFunc] = React.useState(false);
+    const {togglePopup, toggleFunc} = togglepopup;
 
     return (
         <section>
