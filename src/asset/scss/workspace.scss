@@ -1,0 +1,54 @@
+.workspace{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 20000;
+    
+    width: 100%;
+    height: 3rem;
+
+    background-color: #cfcfcf;
+    opacity: 0.9;
+
+    .workspace-popup{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 3.5rem;
+        height: 3rem;
+        padding: 0;
+        cursor: pointer;
+
+        &:hover{
+            background-color: #c0c0c0;
+        }
+
+        .popup-icon{
+            width: 2rem;
+            height: 2rem;
+            border-radius: 180%;
+            background-image: url("../img/profile.png");
+            background-size: cover;
+        }
+    }
+
+    .workspace-time{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        width: auto;
+        height: 3rem;
+        &:hover{
+            background-color: #c0c0c0;
+        }
+
+        .clock{
+            font-weight: 600;
+        }
+    }
+}

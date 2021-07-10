@@ -4,6 +4,7 @@ import useTime from "../time";
 import PopupMenu from "./popupMenu";
 
 import $ from "jquery";
+import "../../asset/scss/workspace.scss"
 
 const Workspace = ()=>{
 
@@ -13,15 +14,15 @@ const Workspace = ()=>{
     return (
         <section>
             <div className="workspace">
-                <div className="workspace-menu">
-                    <div className="menu-icon" onClick={e=>toggleFunc(!togglePopup)}></div>
+                <div className="workspace-popup">
+                    <div className="popup-icon" onClick={e=>toggleFunc(!togglePopup)}></div>
                 </div>
             
                 <div className="workspace-time">
-                    <span className="main-clock-time">
+                    <span className="clock main-clock-time">
                         {time.toTimeString().slice(0, 2)}:{time.toTimeString().slice(3, 5)}
                     </span>
-                    <span className="main-clock-date">
+                    <span className="clock main-clock-date">
                         {time.toLocaleString("en-us", {day: 'numeric', year: 'numeric', month: 'long'})}
                     </span>
                 </div>

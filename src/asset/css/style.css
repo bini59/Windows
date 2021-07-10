@@ -41,7 +41,7 @@ body {
         transform: rotate(360deg);
    }
 }
-.workspace {
+/* .workspace {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -52,8 +52,8 @@ body {
     height: 3rem;
     background-color: #b4b4b4;
     opacity: 0.8;
-}
-.workspace .workspace-menu {
+} */
+/* .workspace .workspace-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -71,21 +71,21 @@ body {
 }
 .workspace .workspace-menu:hover {
     background-color: #949494;
-}
-.workspace .workspace-time {
+} */
+/* .workspace .workspace-time {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     width: 6rem;
     height: 3rem;
-}
-.workspace .workspace-time span {
+} */
+/* .workspace .workspace-time span {
     font-weight: 600;
-}
-.workspace .workspace-time:hover {
+} */
+/* .workspace .workspace-time:hover {
     background-color: #949494;
-}
+} */
 /* .popup-menu {
     display: flex;
     position: absolute;
