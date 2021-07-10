@@ -6,15 +6,15 @@ const Icons = ()=>{
     return (
         <section className="icons">
             <div className="folder icon" id="category">
-                <div className="icon-category" />
+                <div className="ico category" />
                 <span>category</span>
             </div>
             <div className="folder icon" id="search">
-                <div className="icon-search" />
+                <div className="ico search" />
                 <span>search</span>
             </div>
             <div className="shortcut icon" id="github">
-                <div className="icon-github"/>
+                <div className="ico github"/>
                 <span>github</span>
             </div>
         </section>

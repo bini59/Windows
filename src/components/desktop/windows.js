@@ -2,14 +2,14 @@ import * as React from "react";
 
 import WindowsHeader from "./windows/head";
 import Folder from "./windows/folder";
-import "../../asset/scss/windows.scss"
+import "../../asset/scss/desktop/windows.scss"
 
 
 const BiniWindows = ()=>{
     
 
     return(
-        <div class="windows" draggable="true">
+        <div className="windows" draggable="true">
             <WindowsHeader />
             <Folder />
         </div>

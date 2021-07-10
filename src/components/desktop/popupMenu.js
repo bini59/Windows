@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import "../../asset/scss/popupmenu.scss"
+import "../../asset/scss/desktop/popupmenu.scss"
 
 const PopupMenu = ({style})=>{
 

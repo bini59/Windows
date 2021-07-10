@@ -3,8 +3,7 @@ import useTime from "../time";
 
 import PopupMenu from "./popupMenu";
 
-import $ from "jquery";
-import "../../asset/scss/workspace.scss"
+import "../../asset/scss/desktop/workspace.scss"
 
 const Workspace = ()=>{
 
@@ -29,10 +28,6 @@ const Workspace = ()=>{
             
             </div>
             
-            <div className="signout-screen">
-                <div className="lds-ring"><div></div><div></div><div></div><div></div></div>
-                <span>Signing out</span>
-            </div>
 
             <PopupMenu style={togglePopup ? {height: "14rem"} : {height: "0"}} />
         </section>

@@ -1,0 +1,41 @@
+.desktop-container{
+    width: calc(100% - 20px);
+    height: calc(100vh - 3rem - 20px);
+    padding: 10px;
+
+    overflow: hidden;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    width: 4rem;
+    height: 6.4rem;
+
+    .ico{
+        width: 2.5rem;
+        height: 2.5rem;
+        background-size: cover;
+    }
+
+
+    .github{
+        background-image: url("/img/icons/github.png");
+    }
+    .profile{
+        background-image: url("/img/profile.png");
+    }
+    .onoff{
+        background-image: url("/img/onoff.png");
+    }
+
+    .category{
+        background-image: url("/img/icons/category.png");
+    }
+    .search{
+        background-image: url("/img/icons/search.png");
+    }
+}
