@@ -2,7 +2,7 @@ import * as React from "react";
 
 import "../../asset/scss/popupmenu.scss"
 
-const PopupMenu = ()=>{
+const PopupMenu = ({style})=>{
 
     const category = [
         <li className="category-item">
@@ -12,9 +12,10 @@ const PopupMenu = ()=>{
             Jekyll
         </li>
     ]
+    console.log(style)
 
     return (
-        <div className="popup-menu">
+        <div className="popup-menu" style={style}>
             <div className="popup-side-bar">
                 <div className="icon"><div className="ico profile" /></div>
                 <div className="icon"><div className="ico onoff" /></div>

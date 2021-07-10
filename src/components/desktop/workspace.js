@@ -1,19 +1,20 @@
 import * as React from "react";
+import useTime from "../time";
 
 import PopupMenu from "./popupMenu";
 
-import useTime from "../time";
-
+import $ from "jquery";
 
 const Workspace = ()=>{
 
     const time = useTime()
+    const [togglePopup, toggleFunc] = React.useState(false);
 
     return (
         <section>
             <div className="workspace">
                 <div className="workspace-menu">
-                    <div className="menu-icon"></div>
+                    <div className="menu-icon" onClick={e=>toggleFunc(!togglePopup)}></div>
                 </div>
             
                 <div className="workspace-time">
@@ -32,7 +33,7 @@ const Workspace = ()=>{
                 <span>Signing out</span>
             </div>
 
-            <PopupMenu />
+            <PopupMenu style={togglePopup ? {height: "14rem"} : {height: "0"}} />
         </section>
     )
 }
