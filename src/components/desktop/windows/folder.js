@@ -3,15 +3,15 @@ import * as React from "react";
 const Folder = ()=>{
 
     const icons = [
-        <div className="icon">
+        <div key="gatsby" className="icon">
             <div className="ico" />
             <span className="name">Gatsby</span>
         </div>,
-        <div className="icon">
+        <div key="jekyll" className="icon">
             <div className="ico" />
             <span className="name">Jekyll</span>
         </div>,
-        <div className="icon">
+        <div key="github" className="icon">
             <div className="ico github" />
             <span className="name">Github</span>
         </div>,

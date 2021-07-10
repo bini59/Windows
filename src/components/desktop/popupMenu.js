@@ -5,10 +5,10 @@ import "../../asset/scss/desktop/popupmenu.scss"
 const PopupMenu = ({style})=>{
 
     const category = [
-        <li className="category-item">
+        <li key="gatsby" className="category-item">
             Gatsby
         </li>,
-        <li className="category-item">
+        <li key="jekyll" className="category-item">
             Jekyll
         </li>
     ]
